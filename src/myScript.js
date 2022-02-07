@@ -61,7 +61,7 @@ function checkRecWt(nm, age, wt){
           res = "Hello "+nm+"!!! Your Weight is greater than recommended value of 30kg at an age of "+age;
       }
   }
-  else if (age > 16 && age < 20){
+  else if (age >= 16 && age <= 20){
       if (wt < 31){
           res = "Hello "+nm+"!!! Your Weight is less than recommended value of 31kg at an age of "+age;
       }
